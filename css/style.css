@@ -133,6 +133,7 @@ button {
   cursor: pointer;
   color: #F2EFEA;
   box-shadow: -3px 1px 10px 0 #FC7753;
+  outline: none;
 }
 button:hover {
   background-color: #FC7753;

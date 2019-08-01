@@ -57,6 +57,7 @@ button {
   cursor: pointer;
   color: $bg-light;
   box-shadow: -3px 1px 10px 0 $secondary;
+  outline: none;
 
   &:hover {
     background-color: $secondary;
