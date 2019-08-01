@@ -77,17 +77,16 @@ section {
   .authorImage {
     width: 300px;
     height: 300px;
-    border-radius: 50%;
-    overflow: hidden;
-    position: relative;
+    background-color: #333333;
     display: flex;
     align-items: center;
     justify-content: center;
+    clip-path: circle(48% at center);
 
     img {
       width: 100%;
+      height: auto;
     }
-    background-color: $main-color;
   }
 
   .textBlock {

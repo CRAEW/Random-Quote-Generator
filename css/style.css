@@ -151,16 +151,15 @@ section {
 section .authorImage {
   width: 300px;
   height: 300px;
-  border-radius: 50%;
-  overflow: hidden;
-  position: relative;
+  background-color: #333333;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #333333;
+  clip-path: circle(48% at center);
 }
 section .authorImage img {
   width: 100%;
+  height: auto;
 }
 section .textBlock {
   display: flex;
